@@ -2,5 +2,9 @@
 export default defineNuxtConfig({
   css: [
     '~/assets/scss/_main.scss'
-  ]
+  ],
+  target: 'static',
+  router: {
+    base: '/radicale-kunstspeeltuin-website/'
+  }
 })
