@@ -2,7 +2,5 @@
 export default defineNuxtConfig({
   css: [
     '~/assets/scss/_main.scss'
-  ],
-
-  static: true,
+  ]
 })
