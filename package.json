@@ -1,4 +1,5 @@
 {
+  "name": "radicale-kunstspeeltuin-website",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -8,6 +9,22 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@nuxt/content": "^2.1.1",
+    "@nuxt/types": "^2.15.8",
+    "@octokit/core": "^4.1.0",
+    "@octokit/rest": "^19.0.5",
+    "@types/jquery": "^3.5.14",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "@urql/vue": "^0.6.3",
+    "@vue/eslint-config-typescript": "^11",
+    "ambient-image": "^1.0.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "graphql-tag": "^2.12.6",
+    "nuxt": "3.0.0-rc.11",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.7.4"
   }
 }

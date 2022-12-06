@@ -1,0 +1,30 @@
+@use 'abstracts' as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.icon{
+  height: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden !important;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+img:not(.icon){
+  aspect-ratio: 16 / 9;
+}

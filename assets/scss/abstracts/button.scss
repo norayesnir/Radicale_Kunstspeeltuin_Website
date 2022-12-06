@@ -1,0 +1,67 @@
+.button{
+   //UI
+   padding: 10px 24px;
+   color: var(--white);
+   border: 1px solid;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+  //background
+  filter: drop-shadow(2px 2px 5px rgb(0, 0, 0, .1));
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  transition: var(--transition-settings);
+}
+
+.button-icon{
+  height: 16px;
+  width: 16px;
+}
+
+.violet-button{
+  color: var(--label-border-violet);
+  border-color: var(--label-border-violet);
+  background-color: var(--label-background-violet);
+  &:hover{
+    background-color: var(--label-background-hover-violet);
+  }
+}
+
+.purple-button{
+  color: var(--label-border-purple);
+  border-color: var(--label-border-purple);
+  background-color: var(--label-background-purple);
+  &:hover{
+    background-color: var(--label-background-hover-purple);
+  }
+}
+
+.blue-button{
+  color: var(--label-border-blue);
+  border-color: var(--label-border-blue);
+  background-color: var(--label-background-blue);
+  &:hover{
+    background-color: var(--label-background-hover-blue);
+  }
+}
+
+.pink-button{
+  color: var(--label-border-pink);
+  border-color: var(--label-border-pink);
+  background-color: var(--label-background-pink);
+  &:hover{
+    background-color: var(--label-background-hover-pink);
+  }
+}
+
+.red-button{
+  color: var(--label-border-red);
+  border-color: var(--label-border-red);
+  background-color: var(--label-background-red);
+  &:hover{
+    background-color: var(--label-background-hover-red);
+  }
+}

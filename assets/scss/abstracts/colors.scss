@@ -1,0 +1,242 @@
+:root{
+  --foreground: var(--blue-20);
+  --background: var(--violet-800);
+  --white: var(--blue-20);
+  --black: var(--violet-800);
+
+  --violet: #2E29A6;
+  --purple: #643b8d;
+  --blue: #4DA1E7;
+  --pink: #F66BBE;
+  --red: #F23041;
+
+  --white-opacity-90: #e9edfbe8;
+  --black-opacity-90: #0a112ce8;
+  --violet-opacity-90: #504bb4e8;
+  --purple-opacity-90: #844DB5e8;
+  --blue-opacity-90: #aac5f3e8;
+  --pink-opacity-90: #f787c7e8;
+  --red-opacity-90: #f46168e8;
+
+  --white-opacity-80: #e9edfbd2;
+  --black-opacity-80: #0a112cd2;
+  --violet-opacity-80: #504bb4d2;
+  --purple-opacity-80: #844DB5d2;
+  --blue-opacity-80: #aac5f3d2;
+  --pink-opacity-80: #f787c7d2;
+  --red-opacity-80: #f46169d2;
+
+  --white-opacity-70: #e9edfbb1;
+  --black-opacity-70: #0a112cb1;
+  --violet-opacity-70: #504bb4b1;
+  --purple-opacity-70: #844DB5b1;
+  --blue-opacity-70: #aac5f3b1;
+  --pink-opacity-70: #f787c7b1;
+  --red-opacity-70: #f46169b1;
+
+  --white-opacity-60: #e9edfb9a;
+  --black-opacity-60: #0a112c9a;
+  --violet-opacity-60: #504bb49a;
+  --purple-opacity-60: #844DB59a;
+  --blue-opacity-60: #aac5f39a;
+  --pink-opacity-60: #f787c79a;
+  --red-opacity-60: #f461699a;
+
+  --white-opacity-50: #e9edfb75;
+  --black-opacity-50: #0a112c75;
+  --violet-opacity-50: #504bb475;
+  --purple-opacity-50: #844DB575;
+  --blue-opacity-50: #aac5f375;
+  --pink-opacity-50: #f787c775;
+  --red-opacity-50: #f4616975;
+
+  --white-opacity-40: #e9edfb5e;
+  --black-opacity-40: #0a112c5e;
+  --violet-opacity-40: #504bb45e;
+  --purple-opacity-40: #844DB55e;
+  --blue-opacity-40: #aac5f35e;
+  --pink-opacity-40: #f787c75e;
+  --red-opacity-40: #f461695e;
+
+  --white-opacity-30: #e9edfb4a;
+  --black-opacity-30: #0a112c4a;
+  --violet-opacity-30: #504bb44a;
+  --purple-opacity-30: #844DB54a;
+  --blue-opacity-30: #aac5f34a;
+  --pink-opacity-30: #f787c74a;
+  --red-opacity-30: #f461694a;
+
+  --white-opacity-20: #e9edfb35;
+  --black-opacity-20: #0a112c35;
+  --violet-opacity-20: #504bb435;
+  --purple-opacity-20: #844DB535;
+  --blue-opacity-20: #aac5f335;
+  --pink-opacity-20: #f787c735;
+  --red-opacity-20: #f4616935;
+
+  --white-opacity-10: #e9edfb1a;
+  --black-opacity-10: #0a112c1a;
+  --violet-opacity-10: #504bb41a;
+  --purple-opacity-10: #844DB51a;
+  --blue-opacity-10: #aac5f31a;
+  --pink-opacity-10: #f787c71a;
+  --red-opacity-10: #f461691a;
+
+  --violet-card-background: var(--violet-opacity-50);
+  --purple-card-background: var(--purple-opacity-50);
+  --blue-card-background: var(--blue-opacity-50);
+  --pink-card-background: var(--pink-opacity-50);
+  --red-card-background: var(--red-opacity-50);
+
+  --card-background: #121738;
+  --card-dropshadow: drop-shadow(10px 10px 20px #e9edfb00);
+
+  --project-image-gradient: linear-gradient(0deg, #121738 0%, #12173800 100%);
+
+  // Label color shortcuts
+  --label-border-violet: var(--violet-100);
+  --label-background-violet: var(--violet-opacity-20);
+  --label-background-hover-violet: var(--violet-opacity-40);
+
+  --label-border-purple: var(--purple-70);
+  --label-background-purple: var(--purple-opacity-20);
+  --label-background-hover-purple: var(--purple-opacity-40);
+
+  --label-border-blue: var(--blue-80);
+  --label-background-blue: var(--blue-opacity-20);
+  --label-background-hover-blue: var(--blue-opacity-40);
+
+  --label-border-pink: var(--pink-70);
+  --label-background-pink: var(--pink-opacity-20);
+  --label-background-hover-pink: var(--pink-opacity-40);
+
+  --label-border-red: var(--red-90);
+  --label-background-red: var(--red-opacity-20);
+  --label-background-hover-red: var(--red-opacity-40);
+
+  //Accent cards
+  --accent-card-01-box-shadow: 
+  inset 0 0 50px var(--white-opacity-50),     /* inner white */
+  inset 20px 0 80px var(--pink-opacity-50),   /* inner left magenta short */
+  inset -20px 0 80px var(--blue-opacity-50),  /* inner right cyan short */
+  inset 20px 0 300px var(--pink-opacity-50),  /* inner left magenta broad */
+  inset -20px 0 300px var(--blue-opacity-50); /* inner right cyan broad */
+  --accent-card-01-background: var(--purple-card-background);
+
+  --transition-settings: .2s ease;
+
+  // Inspired by Neon Tokyo
+ // 🎨 Neon Violet
+--violet-800: #0a112c; // 800
+--violet-700: #101540; // 700
+--violet-600: #1e1f70; // 600
+--violet-500: #2E29A6; // 500
+--violet-400: #514bb4; // 400
+--violet-100: #756cc1; // 100
+--violet-80: #958bce; // 80
+--violet-60: #b3a8da; // 60
+--violet-40: #d0c7e7; // 40
+--violet-20: #ece8f5; // 20
+
+ // 🎨 Neon Purple
+--purple-800: #171129; // 800
+--purple-700: #231738; // 700
+--purple-600: #40275f; // 600
+--purple-400: #643b8d; // 400
+--purple-300: #844DB5; // 300
+--purple-90: #9f72c4; // 90
+--purple-70: #b890d0; // 70
+--purple-60: #cba9db; // 60
+--purple-40: #dec5e7; // 40
+--purple-20: #f2e9f5; // 20
+
+ // 🎨 Neon Blue
+--blue-700: #0d3038; // 700
+--blue-600: #143c4c; // 600
+--blue-400: #265c7c; // 400
+--blue-100: #3a81b5; // 100
+--blue-80: #4DA1E7; // 80
+--blue-70: #72b2eb; // 70
+--blue-60: #90bbef; // 60
+--blue-50: #aac5f3; // 50
+--blue-40: #c6d5f7; // 40
+--blue-20: #e9edfb; // 20
+
+ // 🎨 Neon Pink
+--pink-800: #390210; // 800
+--pink-700: #510b23; // 700
+--pink-500: #85234f; // 500
+--pink-200: #c2488a; // 200
+--pink-80: #F66BBE; // 80
+--pink-70: #f787c7; // 70
+--pink-60: #f89bc7; // 60
+--pink-50: #faadca; // 50
+--pink-40: #fbc4d5; // 40
+--pink-20: #fde7ed; // 20
+
+ // 🎨 Neon Red
+--red-900: #380007; // 900
+--red-800: #4d040d; // 800
+--red-700: #81101c; // 700
+--red-500: #be202f; // 500
+--red-300: #F23041; // 300
+--red-90: #f46169; // 90
+--red-70: #f69086; // 70
+--red-50: #f8b6a0; // 50
+--red-30: #fad4be; // 30
+--red-10: #fdf0e5; // 10
+}
+
+.light-theme{
+--foreground: var(--violet-800);
+--background: var(--blue-20);
+
+  --violet: #2E29A6;
+  --purple: #643b8d;
+  --blue: #4DA1E7;
+  --pink: #F66BBE;
+  --red: #F23041;
+
+  --violet-card-background: #504bb450;
+  --purple-card-background: #844DB550;
+  --blue-card-background: #72b2eb50;
+  --pink-card-background: #f787c750;
+  --red-card-background: #f4616950;
+
+  --card-background: #ffffff;
+  --card-dropshadow: drop-shadow(5px 5px 10px #c6d5f7aa);
+
+  --project-image-gradient: linear-gradient(0deg, #ffffff 0%, #ffffff00 100%);
+
+  --accent-card-01-box-shadow: 
+  inset 0 0 50px var(--white),     /* inner white */
+  inset 20px 0 80px var(--pink),   /* inner left magenta short */
+  inset -20px 0 80px var(--blue),  /* inner right cyan short */
+  inset 20px 0 300px var(--pink),  /* inner left magenta broad */
+  inset -20px 0 300px var(--blue); /* inner right cyan broad */
+  --accent-card-01-background: var(--pink-card-background);
+
+  // Label color shortcuts
+  --label-border-violet: var(--violet);
+  --label-background-violet: var(--violet-opacity-20);
+  --label-background-hover-violet: var(--violet-opacity-60);
+
+  --label-border-purple: var(--purple);
+  --label-background-purple: var(--purple-opacity-20);
+  --label-background-hover-purple: var(--purple-opacity-60);
+
+
+  --label-border-blue: var(--blue);
+  --label-background-blue: var(--blue-opacity-20);
+  --label-background-hover-blue: var(--blue-opacity-60);
+
+
+  --label-border-pink: var(--pink);
+  --label-background-pink: var(--pink-opacity-20);
+  --label-background-hover-pink: var(--pink-opacity-60);
+
+
+  --label-border-red: var(--red);
+  --label-background-red: var(--red-opacity-20);
+  --label-background-hover-red: var(--red-opacity-60);
+}
